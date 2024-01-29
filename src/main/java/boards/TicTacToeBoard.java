@@ -18,6 +18,7 @@ public class TicTacToeBoard implements CellBoard {
 
     public static RuleSet getRules() {
         RuleSet rules = new RuleSet();
+
         rules.add(new Rule(board -> outerTraversals((i, j) -> board.getSymbol(i, j))));
         rules.add(new Rule(board -> outerTraversals((i, j) -> board.getSymbol(j, i))));
         rules.add(new Rule(board -> traverse(i -> board.getSymbol(i, i))));
