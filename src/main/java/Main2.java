@@ -1,9 +1,7 @@
 import api.Rule;
 import api.RuleSet;
 import boards.Board;
-import boards.CellBoard;
 import game.GameState;
-import game.Move;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;

@@ -1,8 +1,5 @@
 package utils;
 
-import placements.DefensivePlacement;
-import placements.Placement;
-
 import java.util.function.Supplier;
 
 public class Utils {
